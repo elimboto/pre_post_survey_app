@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from io import BytesIO
 from scipy.stats import ttest_rel, wilcoxon
-import seaborn as sns
 
 #Display info on charts
 textstr = 'Created at \nwww.tssfl.com'
