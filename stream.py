@@ -224,8 +224,8 @@ def main():
 
             st.subheader("📈 Chart Type")
             chart_type = st.radio("Select chart type", ["Bar", "Line"], horizontal=True)
-            color_pre = st.color_picker("Pick color for Pre-Intervention", "#1f77b4")
-            color_post = st.color_picker("Pick color for Post-Intervention", "#ff7f0e")
+            color_pre = st.color_picker("Pick color for Pre-Intervention", "#f4d641")
+            color_post = st.color_picker("Pick color for Post-Intervention", "#4286f4")
             dt.visualize_mean_scores(pre_transformed, post_transformed, color_pre, color_post, chart_type)
 
             st.subheader("📋 Tabular Summary")
