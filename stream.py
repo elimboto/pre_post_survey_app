@@ -200,7 +200,7 @@ def run_statistical_tests(pre_df, post_df):
     return result
 
 def main():
-    st.title("📊 Survey Insights Generator")
+    st.title("📊 Survey Insights Generator, Developed by TSSFL Team")
     st.markdown("""
     This app processes pre/post survey data, calculates summary statistics, generates comparative charts, performs statistical tests,
     and provides AI-assisted insights.
